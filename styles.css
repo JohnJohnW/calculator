@@ -1,0 +1,109 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+.calculator{
+    background-color: darkslategrey;
+    border: 1px;
+    border-radius: 10px;
+}
+
+h1{
+    -webkit-text-fill-color: aliceblue;
+    border: 1px;
+    border-radius: 10px;
+    background-color: darkslategrey;
+    padding: 10px;
+}
+
+.btn{
+    height: 75px;
+    width: 75px;
+    margin: 15px;
+    font-size: 40px;
+}
+
+.btn.number{
+    border: 1px solid palegreen;
+    border-radius: 10px;
+    color: aliceblue;
+}
+
+.btn.number:hover{
+    background-color: palegreen;
+}
+
+.btn.operator{
+    border: 1px solid paleturquoise;
+    border-radius: 10px;
+    color: aliceblue;
+}
+
+.btn.operator:hover{
+    background-color: paleturquoise;
+}
+
+.btn.decimal{
+    border: 1px solid palegoldenrod;
+    border-radius: 10px;
+    color: aliceblue;
+}
+
+.btn.decimal:hover{
+    background-color: palegoldenrod;
+}
+
+.btn.equal{
+    border: 1px solid pink;
+    border-radius: 10px;
+    color: aliceblue;
+}
+
+.btn.equal:hover{
+    background-color: pink;
+}
+
+#clear-btn{
+    border: 1px solid palevioletred;
+    border-radius: 10px;
+    color: aliceblue;
+}
+
+#clear-btn:hover{
+    background-color: palevioletred;
+}
+
+.first-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+#screen{
+    width: 300px;
+    border: 1px solid salmon;
+    border-radius: 10px;
+    height: 75px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    color: aliceblue;
+}
+
+.previous{
+    padding-right: 5px;
+    font-size: 20px;
+}
+
+.current{
+    padding-right: 5px;
+    font-size: 30px;
+}
